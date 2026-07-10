@@ -3,7 +3,7 @@
   "project": "AgentSpace",
   "description": "AI orchestration platform and shared workspace for multi-agent software development.",
   "currentEpic": "AS-22",
-  "currentTask": "AS-22.3 \u2014 Publish canonical checklist data",
+  "currentTask": "AS-22.4 — Deploy with GitHub Pages",
   "sourceRepository": "private",
   "dashboardRepository": "yairhen2/AgentSpace-Dashboard",
   "branch": "main",
@@ -68,12 +68,12 @@
         {
           "id": "AS-22.3",
           "title": "Publish canonical checklist data",
-          "status": "in_progress"
+          "status": "complete"
         },
         {
           "id": "AS-22.4",
           "title": "Deploy with GitHub Pages",
-          "status": "planned"
+          "status": "in_progress"
         },
         {
           "id": "AS-22.5",
