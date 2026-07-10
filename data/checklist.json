@@ -3,13 +3,13 @@
     "project":  "AgentSpace",
     "description":  "AI orchestration platform and shared workspace for multi-agent software development.",
     "currentEpic":  "AS-23",
-    "currentTask":  "AS-23.6 — Policy Foundation",
+    "currentTask":  "AS-23.7 — Budget Foundation",
     "sourceRepository":  "private",
     "dashboardRepository":  "yairhen2/AgentSpace-Dashboard",
     "branch":  "main",
-    "commit":  "eca3908",
+    "commit":  "8353399",
     "tests":  {
-                  "passed":  43,
+                  "passed":  51,
                   "failed":  0
               },
     "epics":  [
@@ -115,6 +115,11 @@
                                     {
                                         "id":  "AS-23.6",
                                         "title":  "Policy Foundation",
+                                        "status":  "complete"
+                                    },
+                                    {
+                                        "id":  "AS-23.7",
+                                        "title":  "Budget Foundation",
                                         "status":  "in_progress"
                                     }
                                 ]
