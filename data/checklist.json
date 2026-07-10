@@ -131,6 +131,11 @@
                                         "id":  "AS-23.10",
                                         "title":  "Kernel Runtime v1",
                                         "status":  "in_progress"
+                                    },
+                                    {
+                                        "id":  "AS-23.9",
+                                        "title":  "Approval Foundation",
+                                        "status":  "complete"
                                     }
                                 ]
                   },
