@@ -3,13 +3,13 @@
     "project":  "AgentSpace",
     "description":  "AI orchestration platform and shared workspace for multi-agent software development.",
     "currentEpic":  "AS-23",
-    "currentTask":  "AS-23.8 — State Foundation",
+    "currentTask":  "AS-23.10 — Kernel Runtime v1",
     "sourceRepository":  "private",
     "dashboardRepository":  "yairhen2/AgentSpace-Dashboard",
     "branch":  "main",
-    "commit":  "99ad670",
+    "commit":  "bcdca1c",
     "tests":  {
-                  "passed":  60,
+                  "passed":  79,
                   "failed":  0
               },
     "epics":  [
@@ -125,6 +125,11 @@
                                     {
                                         "id":  "AS-23.8",
                                         "title":  "State Foundation",
+                                        "status":  "in_progress"
+                                    },
+                                    {
+                                        "id":  "AS-23.10",
+                                        "title":  "Kernel Runtime v1",
                                         "status":  "in_progress"
                                     }
                                 ]
