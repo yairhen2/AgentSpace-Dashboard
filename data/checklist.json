@@ -2,14 +2,14 @@
     "schemaVersion":  1,
     "project":  "AgentSpace",
     "description":  "AI orchestration platform and shared workspace for multi-agent software development.",
-    "currentEpic":  "AS-23",
-    "currentTask":  "AS-23.10 — Kernel Runtime v1",
+    "currentEpic":  "AS-24",
+    "currentTask":  "AS-24.1 — Scan managed product roots",
     "sourceRepository":  "private",
     "dashboardRepository":  "yairhen2/AgentSpace-Dashboard",
     "branch":  "main",
-    "commit":  "bcdca1c",
+    "commit":  "772d8df",
     "tests":  {
-                  "passed":  79,
+                  "passed":  88,
                   "failed":  0
               },
     "epics":  [
@@ -85,7 +85,7 @@
                   {
                       "id":  "AS-23",
                       "title":  "Kernel Foundation",
-                      "status":  "in_progress",
+                      "status":  "complete",
                       "tasks":  [
                                     {
                                         "id":  "AS-23.1",
@@ -130,7 +130,7 @@
                                     {
                                         "id":  "AS-23.10",
                                         "title":  "Kernel Runtime v1",
-                                        "status":  "in_progress"
+                                        "status":  "complete"
                                     },
                                     {
                                         "id":  "AS-23.9",
@@ -142,12 +142,12 @@
                   {
                       "id":  "AS-24",
                       "title":  "Product Discovery and Registry",
-                      "status":  "planned",
+                      "status":  "in_progress",
                       "tasks":  [
                                     {
                                         "id":  "AS-24.1",
                                         "title":  "Scan managed product roots",
-                                        "status":  "planned"
+                                        "status":  "in_progress"
                                     },
                                     {
                                         "id":  "AS-24.2",
