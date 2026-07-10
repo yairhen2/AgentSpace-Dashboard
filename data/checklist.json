@@ -1,0 +1,695 @@
+{
+  "schemaVersion": 1,
+  "project": "AgentSpace",
+  "description": "AI orchestration platform and shared workspace for multi-agent software development.",
+  "currentEpic": "AS-22",
+  "currentTask": "AS-22.3 \u2014 Publish canonical checklist data",
+  "sourceRepository": "private",
+  "dashboardRepository": "yairhen2/AgentSpace-Dashboard",
+  "branch": "main",
+  "commit": "bc08a7e",
+  "tests": {
+    "passed": 22,
+    "failed": 0
+  },
+  "epics": [
+    {
+      "id": "AS-21",
+      "title": "Workspace Foundation",
+      "status": "complete",
+      "tasks": [
+        {
+          "id": "AS-21.1",
+          "title": "Workspace Data Model",
+          "status": "complete"
+        },
+        {
+          "id": "AS-21.2",
+          "title": "Workspace Validator",
+          "status": "complete"
+        },
+        {
+          "id": "AS-21.3",
+          "title": "Workspace Parser",
+          "status": "complete"
+        },
+        {
+          "id": "AS-21.4",
+          "title": "Workspace Loader",
+          "status": "complete"
+        },
+        {
+          "id": "AS-21.5",
+          "title": "Automated Testing",
+          "status": "complete"
+        },
+        {
+          "id": "AS-21.6",
+          "title": "Architect Integration",
+          "status": "complete"
+        }
+      ]
+    },
+    {
+      "id": "AS-22",
+      "title": "Development Dashboard",
+      "status": "in_progress",
+      "tasks": [
+        {
+          "id": "AS-22.1",
+          "title": "Define dashboard scope",
+          "status": "complete"
+        },
+        {
+          "id": "AS-22.2",
+          "title": "Create public dashboard repository",
+          "status": "complete"
+        },
+        {
+          "id": "AS-22.3",
+          "title": "Publish canonical checklist data",
+          "status": "in_progress"
+        },
+        {
+          "id": "AS-22.4",
+          "title": "Deploy with GitHub Pages",
+          "status": "planned"
+        },
+        {
+          "id": "AS-22.5",
+          "title": "Refine visual design with Claude Fable",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-23",
+      "title": "Kernel Architecture",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-23.1",
+          "title": "Define Kernel responsibilities",
+          "status": "planned"
+        },
+        {
+          "id": "AS-23.2",
+          "title": "Define permissions and approvals",
+          "status": "planned"
+        },
+        {
+          "id": "AS-23.3",
+          "title": "Define filesystem and Git boundaries",
+          "status": "planned"
+        },
+        {
+          "id": "AS-23.4",
+          "title": "Define logging, budgets, and provider controls",
+          "status": "planned"
+        },
+        {
+          "id": "AS-23.5",
+          "title": "Create Kernel architecture document",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-24",
+      "title": "Product Discovery and Registry",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-24.1",
+          "title": "Scan managed product roots",
+          "status": "planned"
+        },
+        {
+          "id": "AS-24.2",
+          "title": "Detect valid Workspaces",
+          "status": "planned"
+        },
+        {
+          "id": "AS-24.3",
+          "title": "Build product records",
+          "status": "planned"
+        },
+        {
+          "id": "AS-24.4",
+          "title": "Build active-product registry",
+          "status": "planned"
+        },
+        {
+          "id": "AS-24.5",
+          "title": "Add automated tests",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-25",
+      "title": "CLI Workspace Commands",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-25.1",
+          "title": "products",
+          "status": "planned"
+        },
+        {
+          "id": "AS-25.2",
+          "title": "open <product>",
+          "status": "planned"
+        },
+        {
+          "id": "AS-25.3",
+          "title": "current",
+          "status": "planned"
+        },
+        {
+          "id": "AS-25.4",
+          "title": "close",
+          "status": "planned"
+        },
+        {
+          "id": "AS-25.5",
+          "title": "workspace validate",
+          "status": "planned"
+        },
+        {
+          "id": "AS-25.6",
+          "title": "workspace status",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-26",
+      "title": "Architect Reasoning Engine",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-26.1",
+          "title": "Connect provider-backed reasoning",
+          "status": "planned"
+        },
+        {
+          "id": "AS-26.2",
+          "title": "Select relevant Workspace context",
+          "status": "planned"
+        },
+        {
+          "id": "AS-26.3",
+          "title": "Analyze complexity and risk",
+          "status": "planned"
+        },
+        {
+          "id": "AS-26.4",
+          "title": "Recommend roles and model strength",
+          "status": "planned"
+        },
+        {
+          "id": "AS-26.5",
+          "title": "Produce structured Execution Plans",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-27",
+      "title": "Execution Plan Contract",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-27.1",
+          "title": "Step IDs and dependencies",
+          "status": "planned"
+        },
+        {
+          "id": "AS-27.2",
+          "title": "Agent roles and provider strategy",
+          "status": "planned"
+        },
+        {
+          "id": "AS-27.3",
+          "title": "Approval requirements",
+          "status": "planned"
+        },
+        {
+          "id": "AS-27.4",
+          "title": "Cost and duration estimates",
+          "status": "planned"
+        },
+        {
+          "id": "AS-27.5",
+          "title": "Verification and output artifacts",
+          "status": "planned"
+        },
+        {
+          "id": "AS-27.6",
+          "title": "Retry and failure policies",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-28",
+      "title": "Orchestrator Runtime",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-28.1",
+          "title": "Execute ordered steps",
+          "status": "planned"
+        },
+        {
+          "id": "AS-28.2",
+          "title": "Resolve dependencies",
+          "status": "planned"
+        },
+        {
+          "id": "AS-28.3",
+          "title": "Pause, resume, and cancel",
+          "status": "planned"
+        },
+        {
+          "id": "AS-28.4",
+          "title": "Handle retries and failures",
+          "status": "planned"
+        },
+        {
+          "id": "AS-28.5",
+          "title": "Support safe parallel execution",
+          "status": "planned"
+        },
+        {
+          "id": "AS-28.6",
+          "title": "Collect results and state",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-29",
+      "title": "Kernel Implementation",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-29.1",
+          "title": "Permission enforcement",
+          "status": "planned"
+        },
+        {
+          "id": "AS-29.2",
+          "title": "Approval enforcement",
+          "status": "planned"
+        },
+        {
+          "id": "AS-29.3",
+          "title": "Safe filesystem operations",
+          "status": "planned"
+        },
+        {
+          "id": "AS-29.4",
+          "title": "Safe Git operations",
+          "status": "planned"
+        },
+        {
+          "id": "AS-29.5",
+          "title": "Tool registry and execution",
+          "status": "planned"
+        },
+        {
+          "id": "AS-29.6",
+          "title": "Budget and resource limits",
+          "status": "planned"
+        },
+        {
+          "id": "AS-29.7",
+          "title": "Deterministic audit logging",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-30",
+      "title": "Provider Runtime",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-30.1",
+          "title": "OpenAI adapter",
+          "status": "planned"
+        },
+        {
+          "id": "AS-30.2",
+          "title": "Anthropic adapter",
+          "status": "planned"
+        },
+        {
+          "id": "AS-30.3",
+          "title": "Standard request and response contracts",
+          "status": "planned"
+        },
+        {
+          "id": "AS-30.4",
+          "title": "Usage and cost tracking",
+          "status": "planned"
+        },
+        {
+          "id": "AS-30.5",
+          "title": "Provider registry",
+          "status": "planned"
+        },
+        {
+          "id": "AS-30.6",
+          "title": "Model-selection strategies",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-31",
+      "title": "Approval Pipeline",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-31.1",
+          "title": "Think",
+          "status": "planned"
+        },
+        {
+          "id": "AS-31.2",
+          "title": "Plan",
+          "status": "planned"
+        },
+        {
+          "id": "AS-31.3",
+          "title": "Approve",
+          "status": "planned"
+        },
+        {
+          "id": "AS-31.4",
+          "title": "Execute",
+          "status": "planned"
+        },
+        {
+          "id": "AS-31.5",
+          "title": "Verify",
+          "status": "planned"
+        },
+        {
+          "id": "AS-31.6",
+          "title": "Commit",
+          "status": "planned"
+        },
+        {
+          "id": "AS-31.7",
+          "title": "Prevent approval bypass",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-32",
+      "title": "First Complete AgentSpace Workflow",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-32.1",
+          "title": "Load product",
+          "status": "planned"
+        },
+        {
+          "id": "AS-32.2",
+          "title": "Understand request",
+          "status": "planned"
+        },
+        {
+          "id": "AS-32.3",
+          "title": "Generate plan",
+          "status": "planned"
+        },
+        {
+          "id": "AS-32.4",
+          "title": "Delegate implementation",
+          "status": "planned"
+        },
+        {
+          "id": "AS-32.5",
+          "title": "Review and approve result",
+          "status": "planned"
+        },
+        {
+          "id": "AS-32.6",
+          "title": "Apply and verify changes",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-33",
+      "title": "First AgentSpace-Built TradePanel Feature",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-33.1",
+          "title": "Confirm stock_scanner is TradePanel",
+          "status": "planned"
+        },
+        {
+          "id": "AS-33.2",
+          "title": "Validate or create its Workspace",
+          "status": "planned"
+        },
+        {
+          "id": "AS-33.3",
+          "title": "Load it through Product Discovery",
+          "status": "planned"
+        },
+        {
+          "id": "AS-33.4",
+          "title": "Implement one contained feature",
+          "status": "planned"
+        },
+        {
+          "id": "AS-33.5",
+          "title": "Test, document, commit, and push",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-34",
+      "title": "Multi-Agent System",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-34.1",
+          "title": "Developer Agent",
+          "status": "planned"
+        },
+        {
+          "id": "AS-34.2",
+          "title": "Reviewer Agent",
+          "status": "planned"
+        },
+        {
+          "id": "AS-34.3",
+          "title": "Tester Agent",
+          "status": "planned"
+        },
+        {
+          "id": "AS-34.4",
+          "title": "Documentation Agent",
+          "status": "planned"
+        },
+        {
+          "id": "AS-34.5",
+          "title": "Security and DevOps Agents",
+          "status": "planned"
+        },
+        {
+          "id": "AS-34.6",
+          "title": "UX and Product Manager Agents",
+          "status": "planned"
+        },
+        {
+          "id": "AS-34.7",
+          "title": "Shared handoffs and correction loops",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-35",
+      "title": "Controlled Self-Improvement",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-35.1",
+          "title": "Load AgentSpace's own Workspace",
+          "status": "planned"
+        },
+        {
+          "id": "AS-35.2",
+          "title": "Analyze improvements",
+          "status": "planned"
+        },
+        {
+          "id": "AS-35.3",
+          "title": "Implement and test proposed changes",
+          "status": "planned"
+        },
+        {
+          "id": "AS-35.4",
+          "title": "Review and request approval",
+          "status": "planned"
+        },
+        {
+          "id": "AS-35.5",
+          "title": "Apply and commit safely",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-36",
+      "title": "Remote Operations",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-36.1",
+          "title": "Remote status",
+          "status": "planned"
+        },
+        {
+          "id": "AS-36.2",
+          "title": "Approved service controls",
+          "status": "planned"
+        },
+        {
+          "id": "AS-36.3",
+          "title": "TradePanel server controls",
+          "status": "planned"
+        },
+        {
+          "id": "AS-36.4",
+          "title": "IBKR Gateway controls",
+          "status": "planned"
+        },
+        {
+          "id": "AS-36.5",
+          "title": "Health checks and safe phone commands",
+          "status": "planned"
+        },
+        {
+          "id": "AS-36.6",
+          "title": "Prevent unrestricted remote shell",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-37",
+      "title": "Infrastructure and Recovery",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-37.1",
+          "title": "CI testing",
+          "status": "planned"
+        },
+        {
+          "id": "AS-37.2",
+          "title": "GitHub workflow",
+          "status": "planned"
+        },
+        {
+          "id": "AS-37.3",
+          "title": "Cloud and database backups",
+          "status": "planned"
+        },
+        {
+          "id": "AS-37.4",
+          "title": "Project ZIP backups",
+          "status": "planned"
+        },
+        {
+          "id": "AS-37.5",
+          "title": "Version and changelog rules",
+          "status": "planned"
+        },
+        {
+          "id": "AS-37.6",
+          "title": "Recovery procedure",
+          "status": "planned"
+        },
+        {
+          "id": "AS-37.7",
+          "title": "Documentation maintenance",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-38",
+      "title": "AgentSpace Internal Project Management",
+      "status": "planned",
+      "tasks": [
+        {
+          "id": "AS-38.1",
+          "title": "Internal task database",
+          "status": "planned"
+        },
+        {
+          "id": "AS-38.2",
+          "title": "Internal project dashboard",
+          "status": "planned"
+        },
+        {
+          "id": "AS-38.3",
+          "title": "Internal notes system",
+          "status": "planned"
+        },
+        {
+          "id": "AS-38.4",
+          "title": "Internal roadmap and architecture viewer",
+          "status": "planned"
+        },
+        {
+          "id": "AS-38.5",
+          "title": "Retire temporary external dashboard",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "AS-39",
+      "title": "GitHub Private Repository Connector",
+      "status": "paused",
+      "tasks": [
+        {
+          "id": "AS-39.1",
+          "title": "Recheck private-repository support later",
+          "status": "paused"
+        },
+        {
+          "id": "AS-39.2",
+          "title": "Keep AgentSpace private",
+          "status": "complete"
+        },
+        {
+          "id": "AS-39.3",
+          "title": "Keep stock_scanner private",
+          "status": "complete"
+        },
+        {
+          "id": "AS-39.4",
+          "title": "Do not block development on connector",
+          "status": "complete"
+        }
+      ]
+    }
+  ]
+}

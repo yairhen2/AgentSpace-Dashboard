@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AgentSpace Development Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="shell">
+<header>
+  <div><p class="eyebrow">AGENTSPACE</p><h1>Development Dashboard</h1><p class="subtitle">Public progress tracker for the private AgentSpace platform.</p></div>
+  <div class="pill" id="current-task">Loading…</div>
+</header>
+<section class="stats" id="stats"></section>
+<section class="toolbar">
+  <input id="search" type="search" placeholder="Search AS tasks…">
+  <select id="status-filter">
+    <option value="all">All statuses</option><option value="complete">Complete</option>
+    <option value="in_progress">In progress</option><option value="planned">Planned</option>
+    <option value="blocked">Blocked</option><option value="paused">Paused</option>
+  </select>
+</section>
+<section id="epics" class="epics"></section>
+</main>
+<script src="app.js"></script>
+</body></html>
