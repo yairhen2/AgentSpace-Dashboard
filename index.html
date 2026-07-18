@@ -1,26 +1,59 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AgentSpace Development Dashboard</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AgentSpace Development Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<main class="shell">
-<header>
-  <div><p class="eyebrow">AGENTSPACE</p><h1>Development Dashboard</h1><p class="subtitle">Public progress tracker for the private AgentSpace platform.</p></div>
-  <div class="pill" id="current-task">Loading…</div>
-</header>
-<section class="stats" id="stats"></section>
-<section class="toolbar">
-  <input id="search" type="search" placeholder="Search AS tasks…">
-  <select id="status-filter">
-    <option value="all">All statuses</option><option value="complete">Complete</option>
-    <option value="in_progress">In progress</option><option value="planned">Planned</option>
-    <option value="blocked">Blocked</option><option value="paused">Paused</option>
-  </select>
-</section>
-<section id="epics" class="epics"></section>
-</main>
-<script src="app.js"></script>
-</body></html>
+  <main class="shell">
+    <header>
+      <div>
+        <p class="eyebrow">AGENTSPACE</p>
+        <h1>Development Dashboard</h1>
+        <p class="subtitle">Public progress tracker for the private AgentSpace platform.</p>
+      </div>
+      <div class="pill loading" id="status-state" role="status" aria-live="polite">
+        Loading verified status…
+      </div>
+    </header>
+
+    <section class="verified" aria-labelledby="verified-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">VERIFIED SOURCE STATUS</p>
+          <h2 id="verified-heading">Current progress</h2>
+        </div>
+      </div>
+      <div class="stats" id="verified-stats" aria-live="polite"></div>
+    </section>
+
+    <section aria-labelledby="checklist-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">DEVELOPMENT CHECKLIST</p>
+          <h2 id="checklist-heading">Roadmap details</h2>
+        </div>
+      </div>
+      <div class="stats" id="checklist-stats"></div>
+      <p class="message" id="checklist-state" role="status" aria-live="polite">
+        Loading checklist…
+      </p>
+      <section class="toolbar" aria-label="Checklist filters">
+        <input id="search" type="search" placeholder="Search AS tasks…" disabled>
+        <select id="status-filter" disabled>
+          <option value="all">All statuses</option>
+          <option value="complete">Complete</option>
+          <option value="in_progress">In progress</option>
+          <option value="planned">Planned</option>
+          <option value="blocked">Blocked</option>
+          <option value="paused">Paused</option>
+        </select>
+      </section>
+      <section id="epics" class="epics" aria-label="Development epics"></section>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

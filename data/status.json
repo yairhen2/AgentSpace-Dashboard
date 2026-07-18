@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "project": "AgentSpace",
+  "currentMilestone": {
+    "id": "AS-25",
+    "title": "CLI Workspace Commands",
+    "status": "planned"
+  },
+  "completedAccelerationItems": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "currentAccelerationItem": {
+    "id": 8,
+    "title": "Automated dashboard updates",
+    "status": "current"
+  },
+  "tests": {
+    "passed": 132,
+    "failed": 0
+  },
+  "sourceCommit": "8a39ba9554ee196ed119b599d3883e0023ef85c1",
+  "lastVerifiedAt": "2026-07-18T00:00:00Z"
+}
