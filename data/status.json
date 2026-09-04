@@ -13,17 +13,18 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ],
   "currentAccelerationItem": {
-    "id": 8,
-    "title": "Automated dashboard updates",
-    "status": "current"
+    "id": 9,
+    "title": "Safe parallel work on separate scoped tasks",
+    "status": "complete"
   },
   "tests": {
-    "passed": 132,
+    "passed": 211,
     "failed": 0
   },
-  "sourceCommit": "7af3b428242c9fd725d056fe9b5c95f1ce9ac0f0",
-  "lastVerifiedAt": "2026-09-04T07:37:41Z"
+  "sourceCommit": "2ca28808bea1060a2f72c0240b65c2b410b3808f",
+  "lastVerifiedAt": "2026-09-04T08:29:25Z"
 }
