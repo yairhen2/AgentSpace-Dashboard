@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "project": "AgentSpace",
   "currentMilestone": {
-    "id": "AS-25",
-    "title": "CLI Workspace Commands",
-    "status": "planned"
+    "id": "AS-26",
+    "title": "Architect Reasoning Engine",
+    "status": "current"
   },
   "completedAccelerationItems": [
     1,
@@ -22,9 +22,9 @@
     "status": "complete"
   },
   "tests": {
-    "passed": 211,
+    "passed": 220,
     "failed": 0
   },
-  "sourceCommit": "d0d7a3b5c5016692666907ccf6d098abc98a1975",
-  "lastVerifiedAt": "2026-09-05T12:49:04Z"
+  "sourceCommit": "dc5ec440b1be794a22eb98409c84c04a670a13ff",
+  "lastVerifiedAt": "2026-09-11T10:04:00Z"
 }
