@@ -2,7 +2,7 @@
   "schemaVersion": 3,
   "project": "AgentSpace",
   "release": "Private platform development",
-  "overallStatus": "ongoing",
+  "overallStatus": "blocked",
   "progress": {
     "completed": 6,
     "total": 19,
@@ -20,11 +20,11 @@
     {
       "taskId": "dashboard-runtime-auto-probe",
       "title": "Dashboard Runtime Auto Probe",
-      "status": "ongoing",
+      "status": "blocked",
       "assignedAgent": "Jarvis",
       "startedAt": "2026-09-13T12:32:07Z",
-      "updatedAt": "2026-09-13T12:32:07Z",
-      "blockedReason": null
+      "updatedAt": "2026-09-13T12:32:21Z",
+      "blockedReason": "Work is blocked"
     },
     {
       "taskId": "dashboard-runtime-sync",
@@ -57,8 +57,8 @@
     }
   },
   "runtime": {
-    "jarvisStatus": "working",
-    "assignmentStatus": "ongoing",
+    "jarvisStatus": "blocked",
+    "assignmentStatus": "blocked",
     "activeAgents": [
       "Jarvis"
     ]
@@ -300,25 +300,25 @@
       "timestamp": "2026-09-13T12:32:07Z"
     },
     {
-      "type": "task_ongoing",
-      "message": "Task is ongoing",
-      "timestamp": "2026-09-13T12:32:07Z"
+      "type": "task_blocked",
+      "message": "Task is blocked",
+      "timestamp": "2026-09-13T12:32:21Z"
     },
     {
       "type": "milestone_current",
       "message": "Milestone is current",
-      "timestamp": "2026-09-13T12:32:08Z"
+      "timestamp": "2026-09-13T12:32:23Z"
     },
     {
       "type": "verification_passed",
       "message": "Verification passed",
-      "timestamp": "2026-09-13T12:32:08Z"
+      "timestamp": "2026-09-13T12:32:23Z"
     }
   ],
   "freshness": {
     "status": "fresh",
-    "generatedAt": "2026-09-13T12:32:08Z",
-    "publishedAt": "2026-09-13T12:32:08Z"
+    "generatedAt": "2026-09-13T12:32:23Z",
+    "publishedAt": "2026-09-13T12:32:23Z"
   },
   "source": {
     "kind": "git",
@@ -345,5 +345,5 @@
     "failed": 0
   },
   "sourceCommit": "54dc85370883f7776e35b591bb72997c3594c8b0",
-  "lastVerifiedAt": "2026-09-13T12:32:08Z"
+  "lastVerifiedAt": "2026-09-13T12:32:23Z"
 }
