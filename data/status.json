@@ -20,10 +20,10 @@
     {
       "taskId": "dashboard-runtime-auto-probe",
       "title": "Dashboard Runtime Auto Probe",
-      "status": "ongoing",
+      "status": "complete",
       "assignedAgent": "Jarvis",
       "startedAt": "2026-09-13T12:32:07Z",
-      "updatedAt": "2026-09-13T12:32:41Z",
+      "updatedAt": "2026-09-13T12:32:54Z",
       "blockedReason": null
     },
     {
@@ -57,11 +57,9 @@
     }
   },
   "runtime": {
-    "jarvisStatus": "working",
-    "assignmentStatus": "ongoing",
-    "activeAgents": [
-      "Jarvis"
-    ]
+    "jarvisStatus": "idle",
+    "assignmentStatus": "complete",
+    "activeAgents": []
   },
   "milestones": [
     {
@@ -300,25 +298,25 @@
       "timestamp": "2026-09-13T12:32:07Z"
     },
     {
-      "type": "task_ongoing",
-      "message": "Task is ongoing",
-      "timestamp": "2026-09-13T12:32:41Z"
-    },
-    {
       "type": "milestone_current",
       "message": "Milestone is current",
-      "timestamp": "2026-09-13T12:32:42Z"
+      "timestamp": "2026-09-13T12:32:54Z"
+    },
+    {
+      "type": "task_complete",
+      "message": "Task completed",
+      "timestamp": "2026-09-13T12:32:54Z"
     },
     {
       "type": "verification_passed",
       "message": "Verification passed",
-      "timestamp": "2026-09-13T12:32:42Z"
+      "timestamp": "2026-09-13T12:32:54Z"
     }
   ],
   "freshness": {
     "status": "fresh",
-    "generatedAt": "2026-09-13T12:32:42Z",
-    "publishedAt": "2026-09-13T12:32:42Z"
+    "generatedAt": "2026-09-13T12:32:54Z",
+    "publishedAt": "2026-09-13T12:32:54Z"
   },
   "source": {
     "kind": "git",
@@ -345,5 +343,5 @@
     "failed": 0
   },
   "sourceCommit": "54dc85370883f7776e35b591bb72997c3594c8b0",
-  "lastVerifiedAt": "2026-09-13T12:32:42Z"
+  "lastVerifiedAt": "2026-09-13T12:32:54Z"
 }
