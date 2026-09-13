@@ -223,12 +223,12 @@ h3 {
   color: #80e5b2;
 }
 
-.current {
+.ready {
   background: #24365f;
   color: #b8c8ff;
 }
 
-.in_progress {
+.ongoing {
   background: #3c3215;
   color: #ffd56a;
 }
@@ -243,7 +243,7 @@ h3 {
   color: #ff9fb7;
 }
 
-.paused {
+.failed {
   background: #362c47;
   color: #c9a7ff;
 }

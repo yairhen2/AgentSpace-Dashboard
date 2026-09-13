@@ -22,36 +22,58 @@
     <section class="verified" aria-labelledby="verified-heading">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">VERIFIED SOURCE STATUS</p>
+          <p class="eyebrow">SAFE PUBLIC PROJECTION</p>
           <h2 id="verified-heading">Current progress</h2>
         </div>
       </div>
       <div class="stats" id="verified-stats" aria-live="polite"></div>
     </section>
 
-    <section aria-labelledby="checklist-heading">
+    <section aria-labelledby="runtime-heading">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">DEVELOPMENT CHECKLIST</p>
-          <h2 id="checklist-heading">Roadmap details</h2>
+          <p class="eyebrow">LIVE LOCAL LIFECYCLE</p>
+          <h2 id="runtime-heading">Current runtime work</h2>
         </div>
       </div>
-      <div class="stats" id="checklist-stats"></div>
-      <p class="message" id="checklist-state" role="status" aria-live="polite">
-        Loading checklist…
+      <section id="runtime-work" class="epics" aria-live="polite"></section>
+    </section>
+
+    <section aria-labelledby="master-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">MASTER EXECUTION CHECKLIST</p>
+          <h2 id="master-heading">Ordered delivery sequence</h2>
+        </div>
+      </div>
+      <div class="stats" id="master-stats"></div>
+      <section id="master-items" class="epics"></section>
+    </section>
+
+    <section aria-labelledby="roadmap-heading">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PRODUCT ROADMAP</p>
+          <h2 id="roadmap-heading">AS-21 through AS-39</h2>
+        </div>
+      </div>
+      <div class="stats" id="roadmap-stats"></div>
+      <p class="message" id="content-state" role="status" aria-live="polite">
+        Loading public status…
       </p>
       <section class="toolbar" aria-label="Checklist filters">
-        <input id="search" type="search" placeholder="Search AS tasks…" disabled>
+        <input id="search" type="search" placeholder="Search public roadmap and checklist…" disabled>
         <select id="status-filter" disabled>
           <option value="all">All statuses</option>
+          <option value="ready">Ready</option>
+          <option value="ongoing">Ongoing</option>
           <option value="complete">Complete</option>
-          <option value="in_progress">In progress</option>
           <option value="planned">Planned</option>
           <option value="blocked">Blocked</option>
-          <option value="paused">Paused</option>
+          <option value="failed">Failed</option>
         </select>
       </section>
-      <section id="epics" class="epics" aria-label="Development epics"></section>
+      <section id="roadmap-items" class="epics" aria-label="Product milestones"></section>
     </section>
   </main>
   <script src="app.js"></script>
