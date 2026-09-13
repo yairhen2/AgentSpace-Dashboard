@@ -1,10 +1,169 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "project": "AgentSpace",
+  "release": "Private platform development",
+  "overallStatus": "ready",
+  "progress": {
+    "completed": 5,
+    "total": 19,
+    "percent": 26
+  },
   "currentMilestone": {
     "id": "AS-26",
+    "name": "Architect Reasoning Engine",
     "title": "Architect Reasoning Engine",
-    "status": "current"
+    "status": "ready",
+    "startedAt": null,
+    "completedAt": null
+  },
+  "activeWork": [],
+  "verification": {
+    "status": "passed",
+    "passed": 249,
+    "failed": 0,
+    "ruff": "passed",
+    "format": "passed",
+    "pyright": "passed",
+    "preCommit": "passed"
+  },
+  "git": {
+    "branch": "main",
+    "commit": "54dc85370883f7776e35b591bb72997c3594c8b0",
+    "pushState": "pushed",
+    "pullRequest": {
+      "number": null,
+      "status": "not_opened",
+      "checks": "not_run",
+      "merged": false
+    }
+  },
+  "runtime": {
+    "jarvisStatus": "idle",
+    "assignmentStatus": "complete",
+    "activeAgents": []
+  },
+  "milestones": [
+    {
+      "id": "AS-21",
+      "name": "Workspace Foundation",
+      "status": "complete"
+    },
+    {
+      "id": "AS-22",
+      "name": "Development Dashboard",
+      "status": "complete"
+    },
+    {
+      "id": "AS-23",
+      "name": "Kernel Foundation",
+      "status": "complete"
+    },
+    {
+      "id": "AS-24",
+      "name": "Product Discovery and Registry",
+      "status": "complete"
+    },
+    {
+      "id": "AS-25",
+      "name": "CLI Workspace Commands",
+      "status": "complete"
+    },
+    {
+      "id": "AS-26",
+      "name": "Architect Reasoning Engine",
+      "status": "ready"
+    },
+    {
+      "id": "AS-27",
+      "name": "Execution Plan Contract",
+      "status": "planned"
+    },
+    {
+      "id": "AS-28",
+      "name": "Orchestrator Runtime",
+      "status": "planned"
+    },
+    {
+      "id": "AS-29",
+      "name": "Kernel Implementation",
+      "status": "planned"
+    },
+    {
+      "id": "AS-30",
+      "name": "Provider Runtime",
+      "status": "planned"
+    },
+    {
+      "id": "AS-31",
+      "name": "Approval Pipeline",
+      "status": "planned"
+    },
+    {
+      "id": "AS-32",
+      "name": "First Complete AgentSpace Workflow",
+      "status": "planned"
+    },
+    {
+      "id": "AS-33",
+      "name": "First AgentSpace-Built TradePanel Feature",
+      "status": "planned"
+    },
+    {
+      "id": "AS-34",
+      "name": "Multi-Agent System",
+      "status": "planned"
+    },
+    {
+      "id": "AS-35",
+      "name": "Controlled Self-Improvement",
+      "status": "planned"
+    },
+    {
+      "id": "AS-36",
+      "name": "Remote Operations",
+      "status": "planned"
+    },
+    {
+      "id": "AS-37",
+      "name": "Infrastructure and Recovery",
+      "status": "planned"
+    },
+    {
+      "id": "AS-38",
+      "name": "AgentSpace Internal Project Management",
+      "status": "planned"
+    },
+    {
+      "id": "AS-39",
+      "name": "GitHub Private Repository Connector",
+      "status": "blocked"
+    }
+  ],
+  "recentEvents": [
+    {
+      "type": "branch_pushed",
+      "message": "Task branch pushed",
+      "timestamp": "2026-09-13T11:49:03Z"
+    },
+    {
+      "type": "milestone_current",
+      "message": "Milestone is current",
+      "timestamp": "2026-09-13T11:49:03Z"
+    },
+    {
+      "type": "verification_passed",
+      "message": "Verification passed",
+      "timestamp": "2026-09-13T11:49:03Z"
+    }
+  ],
+  "freshness": {
+    "status": "fresh",
+    "generatedAt": "2026-09-13T11:49:03Z",
+    "publishedAt": "2026-09-13T11:49:03Z"
+  },
+  "source": {
+    "kind": "git",
+    "commit": "54dc85370883f7776e35b591bb72997c3594c8b0"
   },
   "completedAccelerationItems": [
     1,
@@ -14,7 +173,8 @@
     5,
     6,
     7,
-    8
+    8,
+    9
   ],
   "currentAccelerationItem": {
     "id": 9,
@@ -22,9 +182,9 @@
     "status": "complete"
   },
   "tests": {
-    "passed": 220,
+    "passed": 249,
     "failed": 0
   },
-  "sourceCommit": "247dd27effa4687d7249089ab73179cf45723b76",
-  "lastVerifiedAt": "2026-09-12T16:49:12Z"
+  "sourceCommit": "54dc85370883f7776e35b591bb72997c3594c8b0",
+  "lastVerifiedAt": "2026-09-13T11:49:03Z"
 }
